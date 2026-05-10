@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精密机械 - Industrial Product Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <!-- 导航栏 / Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                <span>PrecisionMach</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">
+                    <span class="zh">产品特点</span>
+                    <span class="en">Features</span>
+                </a>
+                <a href="#specs">
+                    <span class="zh">技术规格</span>
+                    <span class="en">Specifications</span>
+                </a>
+                <a href="#applications">
+                    <span class="zh">应用领域</span>
+                    <span class="en">Applications</span>
+                </a>
+                <a href="#contact">
+                    <span class="zh">联系我们</span>
+                    <span class="en">Contact Us</span>
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="zh">中</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 / Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">
+                        <span class="zh">精密机械</span>
+                        <span class="en">Precision Machinery</span>
+                    </span>
+                    <br>
+                    <span class="hero-subtitle">
+                        <span class="zh">工业级解决方案</span>
+                        <span class="en">Industrial-Grade Solutions</span>
+                    </span>
+                </h1>
+                <p class="hero-description">
+                    <span class="zh">采用先进的制造工艺，为您的工业生产提供高精度、高可靠性的机械设备和解决方案。</span>
+                    <span class="en">Advanced manufacturing processes providing high-precision, reliable machinery and solutions for your industrial production needs.</span>
+                </p>
+                <div class="hero-actions">
+                    <a href="#features" class="btn btn-primary">
+                        <span class="zh">了解更多</span>
+                        <span class="en">Learn More</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span class="zh">获取报价</span>
+                        <span class="en">Get Quote</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">99.9%</span>
+                        <span class="stat-label">
+                            <span class="zh">精度</span>
+                            <span class="en">Precision</span>
+                        </span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">500+</span>
+                        <span class="stat-label">
+                            <span class="zh">客户</span>
+                            <span class="en">Clients</span>
+                        </span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">15</span>
+                        <span class="stat-label">
+                            <span class="zh">年经验</span>
+                            <span class="en">Years Exp.</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 产品特点 / Product Features -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="zh">产品特点</span>
+                    <span class="en">Product Features</span>
+                </h2>
+                <p class="section-description">
+                    <span class="zh">我们的机械产品采用军工级材料和精密加工工艺，确保在各种严苛环境下的稳定性能。</span>
+                    <span class="en">Our machinery utilizes military-grade materials and precision manufacturing processes to ensure stable performance in harsh environments.</span>
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>
+                        <span class="zh">高精度加工</span>
+                        <span class="en">High-Precision Machining</span>
+                    </h3>
+                    <p>
+                        <span class="zh">采用五轴联动加工中心，精度可达0.001mm，满足精密装配需求。</span>
+                        <span class="en">Five-axis machining centers achieve precision up to 0.001mm, meeting demanding assembly requirements.</span>
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>
+                        <span class="zh">军工级材料</span>
+                        <span class="en">Military-Grade Materials</span>
+                    </h3>
+                    <p>
+                        <span class="zh">选用航空级铝合金和不锈钢材料，具有优异的强度和耐腐蚀性。</span>
+                        <span class="en">Aerospace-grade aluminum alloy and stainless steel provide excellent strength and corrosion resistance.</span>
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                    </div>
+                    <h3>
+                        <span class="zh">智能控制</span>
+                        <span class="en">Smart Control System</span>
+                    </h3>
+                    <p>
+                        <span class="zh">集成PLC控制系统，支持远程监控和故障诊断，提高维护效率。</span>
+                        <span class="en">Integrated PLC control system supports remote monitoring and fault diagnosis for improved maintenance efficiency.</span>
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3>
+                        <span class="zh">高效节能</span>
+                        <span class="en">Energy Efficient</span>
+                    </h3>
+                    <p>
+                        <span class="zh">采用变频驱动技术，能耗降低30%，符合国家一级能效标准。</span>
+                        <span class="en">Variable frequency drive technology reduces energy consumption by 30%, meeting national first-class efficiency standards.</span>
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="3" y1="9" x2="21" y2="9"/>
+                            <line x1="9" y1="21" x2="9" y2="9"/>
+                        </svg>
+                    </div>
+                    <h3>
+                        <span class="zh">模块化设计</span>
+                        <span class="en">Modular Design</span>
+                    </h3>
+                    <p>
+                        <span class="zh">采用标准化模块，便于拆卸维修和功能扩展，降低维护成本。</span>
+                        <span class="en">Standardized modules facilitate easy maintenance and feature expansion, reducing operational costs.</span>
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3>
+                        <span class="zh">全球联保</span>
+                        <span class="en">Global Warranty</span>
+                    </h3>
+                    <p>
+                        <span class="zh">提供全球联保服务，24小时技术支持，快速响应客户需求。</span>
+                        <span class="en">Global warranty service with 24/7 technical support for rapid customer response.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术规格 / Technical Specifications -->
+    <section id="specs" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="zh">技术规格</span>
+                    <span class="en">Technical Specifications</span>
+                </h2>
+                <p class="section-description">
+                    <span class="zh">详细的技术参数，为您的选型提供专业参考。</span>
+                    <span class="en">Detailed technical parameters for professional reference in product selection.</span>
+                </p>
+            </div>
+            <div class="specs-container">
+                <div class="specs-table">
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">型号</span>
+                            <span class="en">Model</span>
+                        </span>
+                        <span class="spec-value">PM-5000X</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">最大行程</span>
+                            <span class="en">Max Travel</span>
+                        </span>
+                        <span class="spec-value">500mm × 500mm × 200mm</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">定位精度</span>
+                            <span class="en">Positioning Accuracy</span>
+                        </span>
+                        <span class="spec-value">±0.001mm</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">重复定位精度</span>
+                            <span class="en">Repeatability</span>
+                        </span>
+                        <span class="spec-value">±0.0005mm</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">主轴转速</span>
+                            <span class="en">Spindle Speed</span>
+                        </span>
+                        <span class="spec-value">0-24000 RPM</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">最大进给速度</span>
+                            <span class="en">Max Feed Rate</span>
+                        </span>
+                        <span class="spec-value">20000mm/min</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">刀具数量</span>
+                            <span class="en">Tool Capacity</span>
+                        </span>
+                        <span class="spec-value">24</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">工作台承重</span>
+                            <span class="en">Table Load Capacity</span>
+                        </span>
+                        <span class="spec-value">2000kg</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">整机重量</span>
+                            <span class="en">Machine Weight</span>
+                        </span>
+                        <span class="spec-value">8500kg</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">外形尺寸</span>
+                            <span class="en">Overall Dimensions</span>
+                        </span>
+                        <span class="spec-value">2800 × 2600 × 2700mm</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">控制系统</span>
+                            <span class="en">Control System</span>
+                        </span>
+                        <span class="spec-value">Siemens 840D SL</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">
+                            <span class="zh">电源要求</span>
+                            <span class="en">Power Supply</span>
+                        </span>
+                        <span class="spec-value">380V ± 10%, 50Hz, 3-Phase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 应用领域 / Application Areas -->
+    <section id="applications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="zh">应用领域</span>
+                    <span class="en">Application Areas</span>
+                </h2>
+                <p class="section-description">
+                    <span class="zh">广泛应用于航空航天、汽车制造、精密模具、医疗器械等高端制造领域。</span>
+                    <span class="en">Widely used in aerospace, automotive manufacturing, precision molds, medical devices and other high-end manufacturing sectors.</span>
+                </p>
+            </div>
+            <div class="applications-grid">
+                <div class="application-card">
+                    <div class="application-image">
+                        <div class="placeholder-image">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>
+                        <span class="zh">航空航天</span>
+                        <span class="en">Aerospace</span>
+                    </h3>
+                    <p>
+                        <span class="zh">用于飞机发动机叶片、机身结构件的精密加工。</span>
+                        <span class="en">Precision machining of aircraft engine blades and fuselage components.</span>
+                    </p>
+                </div>
+                <div class="application-card">
+                    <div class="application-image">
+                        <div class="placeholder-image">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="1" y="3" width="15" height="13"/>
+                                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                                <circle cx="5.5" cy="18.5" r="2.5"/>
+                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>
+                        <span class="zh">汽车制造</span>
+                        <span class="en">Automotive</span>
+                    </h3>
+                    <p>
+                        <span class="zh">汽车发动机缸体、变速箱壳体等关键零部件的加工。</span>
+                        <span class="en">Machining of critical components like engine blocks and transmission housings.</span>
+                    </p>
+                </div>
+                <div class="application-card">
+                    <div class="application-image">
+                        <div class="placeholder-image">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>
+                        <span class="zh">精密模具</span>
+                        <span class="en">Precision Molds</span>
+                    </h3>
+                    <p>
+                        <span class="zh">精密模具的型腔、型芯加工，表面光洁度可达Ra0.4。</span>
+                        <span class="en">Cavity and core machining for precision molds with surface finish up to Ra0.4.</span>
+                    </p>
+                </div>
+                <div class="application-card">
+                    <div class="application-image">
+                        <div class="placeholder-image">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>
+                        <span class="zh">医疗器械</span>
+                        <span class="en">Medical Devices</span>
+                    </h3>
+                    <p>
+                        <span class="zh">人工关节、牙科植入物等高精度医疗器械的制造。</span>
+                        <span class="en">Manufacturing of high-precision medical devices like artificial joints and dental implants.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系表单 / Contact Form -->
+    <section id="contact" class="section section-gradient">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>
+                        <span class="zh">获取专业报价</span>
+                        <span class="en">Get a Professional Quote</span>
+                    </h2>
+                    <p>
+                        <span class="zh">我们的技术团队随时为您提供选型建议和报价支持。</span>
+                        <span class="en">Our technical team is ready to provide product selection advice and quotation support.</span>
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Shanghai Pudong Zhangjiang Hi-Tech Park</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>+86 400-888-8888</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>sales@precisionmach.com</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">
+                                <span class="zh">姓名</span>
+                                <span class="en">Name</span>
+                            </label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">
+                                <span class="zh">公司</span>
+                                <span class="en">Company</span>
+                            </label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">
+                            <span class="zh">邮箱</span>
+                            <span class="en">Email</span>
+                        </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">
+                            <span class="zh">电话</span>
+                            <span class="en">Phone</span>
+                        </label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">
+                            <span class="zh">留言</span>
+                            <span class="en">Message</span>
+                        </label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span class="zh">提交咨询</span>
+                        <span class="en">Submit Inquiry</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 / Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="nav-brand">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                        <span>PrecisionMach</span>
+                    </div>
+                    <p>
+                        <span class="zh">致力于为全球制造业提供高精度、高可靠性的机械设备和解决方案。</span>
+                        <span class="en">Dedicated to providing high-precision, reliable machinery and solutions for global manufacturing.</span>
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>
+                            <span class="zh">产品</span>
+                            <span class="en">Products</span>
+                        </h4>
+                        <a href="#features">
+                            <span class="zh">产品特点</span>
+                            <span class="en">Features</span>
+                        </a>
+                        <a href="#specs">
+                            <span class="zh">技术规格</span>
+                            <span class="en">Specifications</span>
+                        </a>
+                        <a href="#applications">
+                            <span class="zh">应用领域</span>
+                            <span class="en">Applications</span>
+                        </a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>
+                            <span class="zh">支持</span>
+                            <span class="en">Support</span>
+                        </h4>
+                        <a href="#">
+                            <span class="zh">技术支持</span>
+                            <span class="en">Tech Support</span>
+                        </a>
+                        <a href="#">
+                            <span class="zh">文档下载</span>
+                            <span class="en">Downloads</span>
+                        </a>
+                        <a href="#">
+                            <span class="zh">常见问题</span>
+                            <span class="en">FAQ</span>
+                        </a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>
+                            <span class="zh">公司</span>
+                            <span class="en">Company</span>
+                        </h4>
+                        <a href="#">
+                            <span class="zh">关于我们</span>
+                            <span class="en">About Us</span>
+                        </a>
+                        <a href="#">
+                            <span class="zh">新闻动态</span>
+                            <span class="en">News</span>
+                        </a>
+                        <a href="#contact">
+                            <span class="zh">联系我们</span>
+                            <span class="en">Contact</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PrecisionMach. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
